@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link 
+    href="tailwind.css" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+      
+      body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-exo {
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #334756;
+        text-shadow: 1px 1px 1px #112a3d ;
+
+      }
+
+      #bombilla {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex h-screen
+    bg-black">
+       <div class="w-2/4 flex flex-col
+       justify-center px-8">
+         <h1 class="text-white text-4xl mb-8 font-exo">
+          <!--DO YOU NEED INSPIRATION FOR YOUR NEXT TRIP--></h1>
+          <div>
+          <a href="" class="text-white bg-blue-400 inline-block  px-8
+          py-4 rounded-full">
+           <i class="material-icons" id="bombilla"> lightbulb</i>
+          </a>
+          
+          </div>
+       </div>
+
+       <div class="w-1/2" id="canvasContainer">
+      <canvas></canvas>
+       </div>
+
+
+    </div>
+
+
+   
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
